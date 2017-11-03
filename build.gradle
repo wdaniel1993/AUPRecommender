@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = '1.7'
+
+mainClassName = 'aup.lenskit.example.LenskitTester'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+dependencies {
+    compile 'org.grouplens.lenskit:lenskit-all:3.0-T1'
+    runtime 'ch.qos.logback:logback-classic:1.1.2'
+    runtime 'org.fusesource.jansi:jansi:1.8'
+}
+
+build.dependsOn installDist
