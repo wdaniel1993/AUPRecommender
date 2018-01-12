@@ -164,8 +164,7 @@ public class LenskitTester {
 	private static void printCommands() {
 		System.out.println("I – Umschalten auf Item-based Ansatz");
 		System.out.println("U – Umschalten auf User-based Ansatz");
-		System.out.println("VSC – Kosinus Vector Ähnlichkeit"); //von Thomas kopiert
-		System.out.println("VSP – Pearson Ähnlichkeit"); //von Thomas kopiert
+		System.out.println("VSC – Kosinus Vector Ähnlichkeit");
 		System.out.println("N – Festlegen der Anzahl an berücksichtigten Nachbarn");
 		System.out.println("C – Konfiguration neu erstellen und Datendatei neu lesen");
 		System.out.println(
