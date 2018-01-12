@@ -147,6 +147,10 @@ public class LenskitTester {
 				case "UCLEAR":
 					users.clear();
 					break;
+					
+				case "MCLEAR":
+					movies.clear();
+					break;
 
 				case "X":
 					exit = true;
@@ -175,6 +179,7 @@ public class LenskitTester {
 		System.out.println("UADD – Benutzer zur Liste für Vorschläge hinzufügen");
 		System.out.println("MADD – Film zur Filmliste für Prediction hinzufügen");
 		System.out.println("UCLEAR – Benutzerliste leeren");
+		System.out.println("MCLEAR – Filmliste leeren");
 		System.out.println("X – Programm beenden");
 		System.out.println("------------------------------------");
 	}
